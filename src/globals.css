@@ -1,0 +1,51 @@
+html {
+    margin: 0;
+}
+
+.fw-bold {
+    font-weight: bold;
+}
+
+.color-passive {
+    color: pink;
+}
+
+.color-skill {
+    color: goldenrod;
+}
+
+.color-condition {
+    color: red;
+}
+
+.color-special1 {
+    color: red;
+}
+
+.color-special2 {
+    color: darkorange;
+}
+
+.color-special3 {
+    color: yellow;
+}
+
+.color-special4 {
+    color: green;
+}
+
+.color-special5 {
+    color: aquamarine;
+}
+
+.color-special6 {
+    color: blue;
+}
+
+.color-special7 {
+    color: blueviolet;
+}
+
+.color-tag {
+    color: slategrey;
+}
