@@ -153,6 +153,24 @@ export default function Home() {
                 text-align: center;
                 margin: 2rem;
             }
+            @media (min-width: 1400px) {
+            /* 화면 크기가 1000px 이상일 때 */
+                .container {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+                    /* 200px 마다 1fr이 늘어나도록 계산한 후,
+                    auto-fit 함수를 사용하여 자동으로 반응형 그리드 생성하도록 함 */
+                }
+            }
+            @media (min-width: 1700px) {
+            /* 화면 크기가 1000px 이상일 때 */
+                .container {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+                    /* 200px 마다 1fr이 늘어나도록 계산한 후,
+                    auto-fit 함수를 사용하여 자동으로 반응형 그리드 생성하도록 함 */
+                }
+            }
             `}</style>
         </>
     );
